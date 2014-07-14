@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E57EA2A51973ED04007F49A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A41973ED04007F49A0 /* Foundation.framework */; };
+		E57EA2A71973ED04007F49A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A61973ED04007F49A0 /* CoreGraphics.framework */; };
+		E57EA2A91973ED04007F49A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A81973ED04007F49A0 /* UIKit.framework */; };
+		E57EA2AF1973ED04007F49A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2AD1973ED04007F49A0 /* InfoPlist.strings */; };
+		E57EA2B11973ED04007F49A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57EA2B01973ED04007F49A0 /* main.m */; };
+		E57EA2B51973ED04007F49A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57EA2B41973ED04007F49A0 /* AppDelegate.m */; };
+		E57EA2B81973ED04007F49A0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2B61973ED04007F49A0 /* Main_iPhone.storyboard */; };
+		E57EA2BB1973ED04007F49A0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2B91973ED04007F49A0 /* Main_iPad.storyboard */; };
+		E57EA2BE1973ED04007F49A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57EA2BD1973ED04007F49A0 /* ViewController.m */; };
+		E57EA2C01973ED04007F49A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2BF1973ED04007F49A0 /* Images.xcassets */; };
+		E57EA2C71973ED04007F49A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2C61973ED04007F49A0 /* XCTest.framework */; };
+		E57EA2C81973ED04007F49A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A41973ED04007F49A0 /* Foundation.framework */; };
+		E57EA2C91973ED04007F49A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A81973ED04007F49A0 /* UIKit.framework */; };
+		E57EA2D11973ED04007F49A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2CF1973ED04007F49A0 /* InfoPlist.strings */; };
+		E57EA2D31973ED04007F49A0 /* GenericSnapChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E57EA2D21973ED04007F49A0 /* GenericSnapChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E57EA2CA1973ED04007F49A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E57EA2991973ED04007F49A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57EA2A01973ED04007F49A0;
+			remoteInfo = GenericSnapChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E57EA2A11973ED04007F49A0 /* GenericSnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericSnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57EA2A41973ED04007F49A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E57EA2A61973ED04007F49A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E57EA2A81973ED04007F49A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E57EA2AC1973ED04007F49A0 /* GenericSnapChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenericSnapChat-Info.plist"; sourceTree = "<group>"; };
+		E57EA2AE1973ED04007F49A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E57EA2B01973ED04007F49A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E57EA2B21973ED04007F49A0 /* GenericSnapChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenericSnapChat-Prefix.pch"; sourceTree = "<group>"; };
+		E57EA2B31973ED04007F49A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E57EA2B41973ED04007F49A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E57EA2B71973ED04007F49A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E57EA2BA1973ED04007F49A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E57EA2BC1973ED04007F49A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E57EA2BD1973ED04007F49A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E57EA2BF1973ED04007F49A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E57EA2C51973ED04007F49A0 /* GenericSnapChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericSnapChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57EA2C61973ED04007F49A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E57EA2CE1973ED04007F49A0 /* GenericSnapChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenericSnapChatTests-Info.plist"; sourceTree = "<group>"; };
+		E57EA2D01973ED04007F49A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E57EA2D21973ED04007F49A0 /* GenericSnapChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericSnapChatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E57EA29E1973ED04007F49A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EA2A71973ED04007F49A0 /* CoreGraphics.framework in Frameworks */,
+				E57EA2A91973ED04007F49A0 /* UIKit.framework in Frameworks */,
+				E57EA2A51973ED04007F49A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EA2C21973ED04007F49A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EA2C71973ED04007F49A0 /* XCTest.framework in Frameworks */,
+				E57EA2C91973ED04007F49A0 /* UIKit.framework in Frameworks */,
+				E57EA2C81973ED04007F49A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E57EA2981973ED04007F49A0 = {
+			isa = PBXGroup;
+			children = (
+				E57EA2AA1973ED04007F49A0 /* GenericSnapChat */,
+				E57EA2CC1973ED04007F49A0 /* GenericSnapChatTests */,
+				E57EA2A31973ED04007F49A0 /* Frameworks */,
+				E57EA2A21973ED04007F49A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E57EA2A21973ED04007F49A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E57EA2A11973ED04007F49A0 /* GenericSnapChat.app */,
+				E57EA2C51973ED04007F49A0 /* GenericSnapChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E57EA2A31973ED04007F49A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E57EA2A41973ED04007F49A0 /* Foundation.framework */,
+				E57EA2A61973ED04007F49A0 /* CoreGraphics.framework */,
+				E57EA2A81973ED04007F49A0 /* UIKit.framework */,
+				E57EA2C61973ED04007F49A0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E57EA2AA1973ED04007F49A0 /* GenericSnapChat */ = {
+			isa = PBXGroup;
+			children = (
+				E57EA2B31973ED04007F49A0 /* AppDelegate.h */,
+				E57EA2B41973ED04007F49A0 /* AppDelegate.m */,
+				E57EA2B61973ED04007F49A0 /* Main_iPhone.storyboard */,
+				E57EA2B91973ED04007F49A0 /* Main_iPad.storyboard */,
+				E57EA2BC1973ED04007F49A0 /* ViewController.h */,
+				E57EA2BD1973ED04007F49A0 /* ViewController.m */,
+				E57EA2BF1973ED04007F49A0 /* Images.xcassets */,
+				E57EA2AB1973ED04007F49A0 /* Supporting Files */,
+			);
+			path = GenericSnapChat;
+			sourceTree = "<group>";
+		};
+		E57EA2AB1973ED04007F49A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E57EA2AC1973ED04007F49A0 /* GenericSnapChat-Info.plist */,
+				E57EA2AD1973ED04007F49A0 /* InfoPlist.strings */,
+				E57EA2B01973ED04007F49A0 /* main.m */,
+				E57EA2B21973ED04007F49A0 /* GenericSnapChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E57EA2CC1973ED04007F49A0 /* GenericSnapChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E57EA2D21973ED04007F49A0 /* GenericSnapChatTests.m */,
+				E57EA2CD1973ED04007F49A0 /* Supporting Files */,
+			);
+			path = GenericSnapChatTests;
+			sourceTree = "<group>";
+		};
+		E57EA2CD1973ED04007F49A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E57EA2CE1973ED04007F49A0 /* GenericSnapChatTests-Info.plist */,
+				E57EA2CF1973ED04007F49A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E57EA2A01973ED04007F49A0 /* GenericSnapChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57EA2D61973ED04007F49A0 /* Build configuration list for PBXNativeTarget "GenericSnapChat" */;
+			buildPhases = (
+				E57EA29D1973ED04007F49A0 /* Sources */,
+				E57EA29E1973ED04007F49A0 /* Frameworks */,
+				E57EA29F1973ED04007F49A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenericSnapChat;
+			productName = GenericSnapChat;
+			productReference = E57EA2A11973ED04007F49A0 /* GenericSnapChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E57EA2C41973ED04007F49A0 /* GenericSnapChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57EA2D91973ED04007F49A0 /* Build configuration list for PBXNativeTarget "GenericSnapChatTests" */;
+			buildPhases = (
+				E57EA2C11973ED04007F49A0 /* Sources */,
+				E57EA2C21973ED04007F49A0 /* Frameworks */,
+				E57EA2C31973ED04007F49A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E57EA2CB1973ED04007F49A0 /* PBXTargetDependency */,
+			);
+			name = GenericSnapChatTests;
+			productName = GenericSnapChatTests;
+			productReference = E57EA2C51973ED04007F49A0 /* GenericSnapChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E57EA2991973ED04007F49A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DWApps;
+				TargetAttributes = {
+					E57EA2C41973ED04007F49A0 = {
+						TestTargetID = E57EA2A01973ED04007F49A0;
+					};
+				};
+			};
+			buildConfigurationList = E57EA29C1973ED04007F49A0 /* Build configuration list for PBXProject "GenericSnapChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E57EA2981973ED04007F49A0;
+			productRefGroup = E57EA2A21973ED04007F49A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E57EA2A01973ED04007F49A0 /* GenericSnapChat */,
+				E57EA2C41973ED04007F49A0 /* GenericSnapChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E57EA29F1973ED04007F49A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EA2BB1973ED04007F49A0 /* Main_iPad.storyboard in Resources */,
+				E57EA2C01973ED04007F49A0 /* Images.xcassets in Resources */,
+				E57EA2B81973ED04007F49A0 /* Main_iPhone.storyboard in Resources */,
+				E57EA2AF1973ED04007F49A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EA2C31973ED04007F49A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EA2D11973ED04007F49A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E57EA29D1973ED04007F49A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EA2BE1973ED04007F49A0 /* ViewController.m in Sources */,
+				E57EA2B51973ED04007F49A0 /* AppDelegate.m in Sources */,
+				E57EA2B11973ED04007F49A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EA2C11973ED04007F49A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EA2D31973ED04007F49A0 /* GenericSnapChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E57EA2CB1973ED04007F49A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E57EA2A01973ED04007F49A0 /* GenericSnapChat */;
+			targetProxy = E57EA2CA1973ED04007F49A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E57EA2AD1973ED04007F49A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57EA2AE1973ED04007F49A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E57EA2B61973ED04007F49A0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57EA2B71973ED04007F49A0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E57EA2B91973ED04007F49A0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57EA2BA1973ED04007F49A0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E57EA2CF1973ED04007F49A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57EA2D01973ED04007F49A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E57EA2D41973ED04007F49A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E57EA2D51973ED04007F49A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E57EA2D71973ED04007F49A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericSnapChat/GenericSnapChat-Prefix.pch";
+				INFOPLIST_FILE = "GenericSnapChat/GenericSnapChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E57EA2D81973ED04007F49A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericSnapChat/GenericSnapChat-Prefix.pch";
+				INFOPLIST_FILE = "GenericSnapChat/GenericSnapChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E57EA2DA1973ED04007F49A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GenericSnapChat.app/GenericSnapChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericSnapChat/GenericSnapChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GenericSnapChatTests/GenericSnapChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E57EA2DB1973ED04007F49A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GenericSnapChat.app/GenericSnapChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericSnapChat/GenericSnapChat-Prefix.pch";
+				INFOPLIST_FILE = "GenericSnapChatTests/GenericSnapChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E57EA29C1973ED04007F49A0 /* Build configuration list for PBXProject "GenericSnapChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57EA2D41973ED04007F49A0 /* Debug */,
+				E57EA2D51973ED04007F49A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E57EA2D61973ED04007F49A0 /* Build configuration list for PBXNativeTarget "GenericSnapChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57EA2D71973ED04007F49A0 /* Debug */,
+				E57EA2D81973ED04007F49A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E57EA2D91973ED04007F49A0 /* Build configuration list for PBXNativeTarget "GenericSnapChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57EA2DA1973ED04007F49A0 /* Debug */,
+				E57EA2DB1973ED04007F49A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E57EA2991973ED04007F49A0 /* Project object */;
+}
