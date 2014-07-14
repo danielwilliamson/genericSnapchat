@@ -38,6 +38,8 @@
     [self.fb_icon.layer addAnimation:theAnimation
                            forKey:@"animateOpacity"];
     self.fb_icon.layer.shouldRasterize = YES;
+  
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

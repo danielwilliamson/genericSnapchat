@@ -23,7 +23,8 @@
 		E57EA2D11973ED04007F49A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2CF1973ED04007F49A0 /* InfoPlist.strings */; };
 		E57EA2D31973ED04007F49A0 /* GenericSnapChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E57EA2D21973ED04007F49A0 /* GenericSnapChatTests.m */; };
 		E57EA2E01973F1B4007F49A0 /* background_login_png.png in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2DF1973F1B4007F49A0 /* background_login_png.png */; };
-		E57EA2E21973F2BA007F49A0 /* fb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2E11973F2BA007F49A0 /* fb_icon.png */; };
+		E57EA2E41973FAA8007F49A0 /* fb_icon_corners.png in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2E31973FAA8007F49A0 /* fb_icon_corners.png */; };
+		E57EA2E61973FC81007F49A0 /* fb_icon_gloss.png in Resources */ = {isa = PBXBuildFile; fileRef = E57EA2E51973FC81007F49A0 /* fb_icon_gloss.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +59,8 @@
 		E57EA2D01973ED04007F49A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E57EA2D21973ED04007F49A0 /* GenericSnapChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericSnapChatTests.m; sourceTree = "<group>"; };
 		E57EA2DF1973F1B4007F49A0 /* background_login_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_login_png.png; sourceTree = "<group>"; };
-		E57EA2E11973F2BA007F49A0 /* fb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_icon.png; sourceTree = "<group>"; };
+		E57EA2E31973FAA8007F49A0 /* fb_icon_corners.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_icon_corners.png; sourceTree = "<group>"; };
+		E57EA2E51973FC81007F49A0 /* fb_icon_gloss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_icon_gloss.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +165,8 @@
 		E57EA2DC1973F131007F49A0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E57EA2E11973F2BA007F49A0 /* fb_icon.png */,
+				E57EA2E31973FAA8007F49A0 /* fb_icon_corners.png */,
+				E57EA2E51973FC81007F49A0 /* fb_icon_gloss.png */,
 				E57EA2DF1973F1B4007F49A0 /* background_login_png.png */,
 			);
 			name = Images;
@@ -248,8 +251,9 @@
 				E57EA2BB1973ED04007F49A0 /* Main_iPad.storyboard in Resources */,
 				E57EA2E01973F1B4007F49A0 /* background_login_png.png in Resources */,
 				E57EA2C01973ED04007F49A0 /* Images.xcassets in Resources */,
+				E57EA2E41973FAA8007F49A0 /* fb_icon_corners.png in Resources */,
+				E57EA2E61973FC81007F49A0 /* fb_icon_gloss.png in Resources */,
 				E57EA2B81973ED04007F49A0 /* Main_iPhone.storyboard in Resources */,
-				E57EA2E21973F2BA007F49A0 /* fb_icon.png in Resources */,
 				E57EA2AF1973ED04007F49A0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
