@@ -20,25 +20,25 @@
     
     //Create an animation with pulsating effect
     CABasicAnimation *theAnimation;
-    
-    //within the animation we will adjust the "opacity"
-    //value of the layer
+    [UIView animateWithDuration:1.0
+                     animations:^{
+                         self.fb_icon.center = CGPointMake(self.fb_icon.center.x + 20, self.fb_icon.center.y - 100);
+                         self.twitter_icon.center = CGPointMake(self.twitter_icon.center.x -20, self.twitter_icon.center.y - 100);
+                     }];
+     
     theAnimation=[CABasicAnimation animationWithKeyPath:@"opacity"];
-    //animation lasts 0.4 seconds
-    theAnimation.duration=1.5;
-    //and it repeats forever
-    //we want a reverse animation
-    //justify the opacity as you like (1=fully visible, 0=unvisible)
+    theAnimation.duration=2.0;
     theAnimation.fromValue=[NSNumber numberWithFloat:0.0];
     theAnimation.toValue=[NSNumber numberWithFloat:1.0];
 
     
-    //Assign the animation to your UIImage layer and the
-    //animation will start immediately
     [self.fb_icon.layer addAnimation:theAnimation
                            forKey:@"animateOpacity"];
-    self.fb_icon.layer.shouldRasterize = YES;
   
+    
+    [self.twitter_icon.layer addAnimation:theAnimation
+                              forKey:@"animateOpacity"];
+    
 
 	// Do any additional setup after loading the view, typically from a nib.
 }

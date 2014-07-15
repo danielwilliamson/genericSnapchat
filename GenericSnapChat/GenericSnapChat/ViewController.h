@@ -10,5 +10,6 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *fb_icon;
+@property (weak, nonatomic) IBOutlet UIImageView *twitter_icon;
 
 @end

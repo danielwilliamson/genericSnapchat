@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E524956919756DE500C3B4F9 /* twitter_icon_corners.png in Resources */ = {isa = PBXBuildFile; fileRef = E524956819756DE500C3B4F9 /* twitter_icon_corners.png */; };
 		E57EA2A51973ED04007F49A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A41973ED04007F49A0 /* Foundation.framework */; };
 		E57EA2A71973ED04007F49A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A61973ED04007F49A0 /* CoreGraphics.framework */; };
 		E57EA2A91973ED04007F49A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57EA2A81973ED04007F49A0 /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E524956819756DE500C3B4F9 /* twitter_icon_corners.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_icon_corners.png; sourceTree = "<group>"; };
 		E57EA2A11973ED04007F49A0 /* GenericSnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericSnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57EA2A41973ED04007F49A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E57EA2A61973ED04007F49A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -167,6 +169,7 @@
 			children = (
 				E57EA2E31973FAA8007F49A0 /* fb_icon_corners.png */,
 				E57EA2E51973FC81007F49A0 /* fb_icon_gloss.png */,
+				E524956819756DE500C3B4F9 /* twitter_icon_corners.png */,
 				E57EA2DF1973F1B4007F49A0 /* background_login_png.png */,
 			);
 			name = Images;
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E57EA2BB1973ED04007F49A0 /* Main_iPad.storyboard in Resources */,
+				E524956919756DE500C3B4F9 /* twitter_icon_corners.png in Resources */,
 				E57EA2E01973F1B4007F49A0 /* background_login_png.png in Resources */,
 				E57EA2C01973ED04007F49A0 /* Images.xcassets in Resources */,
 				E57EA2E41973FAA8007F49A0 /* fb_icon_corners.png in Resources */,
@@ -492,6 +496,7 @@
 				E57EA2D81973ED04007F49A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E57EA2D91973ED04007F49A0 /* Build configuration list for PBXNativeTarget "GenericSnapChatTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				E57EA2DB1973ED04007F49A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
